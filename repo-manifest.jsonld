@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/modelcontextprotocol/go-sdk/commit/53effc04ea258b9ee618886702e03abc4306a160",
       "git:hexsha": "53effc04ea258b9ee618886702e03abc4306a160",
-      "repolex:parseStatus": "metadata_complete",
+      "repolex:parseStatus": "ast_complete",
       "git:tagName": "main"
     },
     {
