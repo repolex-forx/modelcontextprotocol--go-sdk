@@ -1,0 +1,15 @@
+[2026-10-03T10:34:44Z] === ENRICH ITERATION 1 START | repo=modelcontextprotocol/go-sdk sha=53effc04 ===
+[2026-10-03T10:34:44Z] [iter=1] PHASE START: enrich repo=modelcontextprotocol/go-sdk sha=53effc04 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/53effc04-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/53effc04ea258b9ee618886702e03abc4306a160.nq.gz
+[2026-10-03T10:34:49Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=91 MB
+[2026-10-03T10:35:07Z] [iter=1] AST store loaded triples=2310337 load_secs=17 mem_mb=934 MB
+[2026-10-03T10:35:07Z] [iter=1] Step 2: Finding LSP targets mem_mb=934 MB
+[2026-10-03T10:35:09Z] [iter=1] LSP targets found call_sites=13626 imports=0 extends=0 implements=0 secs=2
+[2026-10-03T10:35:09Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=934 MB
+[2026-10-03T10:35:24Z] [iter=1] Position index built positions=152615 nodes_with_types=177485 secs=14 mem_mb=934 MB
+[2026-10-03T10:35:24Z] [iter=1] Step 3: Starting LSP resolution mem_mb=934 MB already_completed_types=[] already_completed_files=0
+[2026-10-03T10:35:24Z] [iter=1] Resolving target type target_type=call_site count=13626
+[2026-10-03T10:35:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.8 files_done=0 resolved=0 errors=13626 current=scripts/server-conformance.sh
+[2026-10-03T10:35:35Z] [iter=1] Target type resolved target_type=call_site resolved=0 errors=13630 secs=12 mem_mb=934 MB
+[2026-10-03T10:35:36Z] [iter=1] Step 5: Writing final enrichment file triples=163
+[2026-10-03T10:35:36Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/53effc04ea258b9ee618886702e03abc4306a160.nq.gz size_kb=2
+[2026-10-03T10:35:36Z] [iter=1] PHASE END: enrich elapsed_s=52 elapsed_min=0.9 total_triples=163
