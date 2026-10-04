@@ -8,8 +8,9 @@
     {
       "@id": "https://repolex.ai/r/modelcontextprotocol/go-sdk/commit/53effc04ea258b9ee618886702e03abc4306a160",
       "git:hexsha": "53effc04ea258b9ee618886702e03abc4306a160",
-      "repolex:parseStatus": "enrich_complete",
-      "git:tagName": "main"
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "main",
+      "repolex:parsedAt": "2026-10-04T14:34:26.464413+00:00"
     },
     {
       "@id": "https://repolex.ai/r/modelcontextprotocol/go-sdk/commit/9b6327b3b7b3d8e57e74b59b509cceca3754e91d",

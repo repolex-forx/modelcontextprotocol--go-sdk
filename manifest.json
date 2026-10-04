@@ -303,7 +303,9 @@
           "githubUrl": "https://github.com/segmentio/asm",
           "source": "build_file:go.mod"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/53effc04ea258b9ee618886702e03abc4306a160/chunk-001.nq.gz",
+      "dep": "dep/53effc04ea258b9ee618886702e03abc4306a160.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
