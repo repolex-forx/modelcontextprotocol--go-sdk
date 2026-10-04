@@ -1,0 +1,11 @@
+{
+  "org": "modelcontextprotocol",
+  "repo": "go-sdk",
+  "versions": [
+    {
+      "commit": "53effc04ea258b9ee618886702e03abc4306a160",
+      "tag": "main",
+      "parsed_at": "2026-10-04T14:34:26.465171+00:00"
+    }
+  ]
+}
